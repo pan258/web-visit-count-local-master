@@ -1,6 +1,5 @@
-FROM alpine:3.11.2
+FROM alpine:3.16.0
 
-RUN apk update
 RUN apk add nodejs
 RUN apk add npm
 
